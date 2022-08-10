@@ -1,0 +1,10 @@
+.postsview{
+    position: relative;
+    left: 10px;
+    top: 330px;
+    width: 50vw;
+    /* float: left; */
+    display: inline;
+    z-index: 0;
+}
+

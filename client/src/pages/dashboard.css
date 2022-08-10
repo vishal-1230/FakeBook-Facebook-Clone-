@@ -1,0 +1,254 @@
+#rootDash{
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+
+.detailsCard{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -33%);
+    background-color: #fff;
+    padding: 100px 150px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    box-shadow: 0px 0px 190px -64px rgba(0,0,0,0.75);
+    border-radius: 15px;
+    margin-bottom: 200px;
+}
+
+#upimg{
+    width: 120px;
+    height:120px;
+    border-radius: 50%;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+    clip-path: circle();
+    /* margin-top: 40px; */
+}
+
+#dp{
+    border: none;
+}
+
+#uploadbtn{
+    width: max-content;
+    position: relative;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#details{
+    margin-top: 160px;
+}
+
+#dob{
+    border-color: rgb(196, 196, 196);
+    padding-right: 100px;
+    padding-left: 20px;    
+}
+
+#personicon{
+    font-size: 120px;
+    position: absolute;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+#detailsSubBtn{
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.suggestions{
+    top: 120px;
+    height: 80vh;
+    width: 25vw;
+    background-color: #fff;
+    display: inline;
+    /* position: absolute; */
+    float: left;
+    margin-left: 40px;
+    margin-right: 0;
+    position: fixed;
+    border-radius: 14px;
+    /* -webkit-box-shadow: 0px 0px 43px -7px rgba(0,0,0,0.75); */
+    /* -moz-box-shadow: 0px 0px 43px -7px rgba(0,0,0,0.75); */
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.55);
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 1;
+}
+
+.suggestions::-webkit-scrollbar{
+    background-color: #bbb;
+    width: 9px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.friends::-webkit-scrollbar{
+    background-color: #bbb;
+    width: 9px;
+    border-bottom-right-radius: 14px;
+    border-top-right-radius: 14px;
+}
+
+.suggestions::-webkit-scrollbar-thumb{
+    background: #444;
+    border-radius: 9px;
+}
+
+.friends::-webkit-scrollbar-thumb{
+    background: #444;
+    border-radius: 9px;
+}
+
+.suggestions::-webkit-scrollbar-thumb:hover{
+    background-color: #222;
+}
+
+.friends::-webkit-scrollbar-thumb:hover{
+    background-color: #222;
+}
+
+.suggestions span{
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.friends span{
+    margin-left: 15px;
+    font-weight: 500;
+}
+
+.friends .btn{
+    border: none;
+    font-size: 20px;
+}
+
+.rightpanel{
+    top: 120px;
+    height: 80vh;
+    width: 25vw;
+    right: 20px;
+    display: flex;
+    flex-direction: column; 
+    background: transparent;
+    justify-content: space-between;
+    /* position: absolute; */
+    position: fixed;
+    float: right;
+    border-radius: 14px;
+    z-index: 1;
+}
+
+.card-header-suggestions{
+    padding: 10px;
+    padding-left: 18px;
+    padding-bottom: 14px;
+    border-bottom: 0.5px solid rgb(180, 180, 180);
+}
+
+.profile{
+    width: 100%;
+    height: 48%;
+    background: #fff;
+    border-radius: 14px;
+    /* box-shadow: 0px 0px 63px -7px rgba(0,0,0,0.75); */
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.55);
+
+}
+
+.friends{
+    width: 100%;
+    height: 48%;
+    position: relative;
+    background: #fff;
+    border-radius: 14px;
+    /* box-shadow: 0px 0px 63px -7px rgba(0,0,0,0.75); */
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.55);
+    overflow-y: auto;
+}
+
+ul{
+    list-style: none;
+    /* margin-top: 20px; */
+    margin-left: -30px;
+    
+}
+
+li button{
+    float: right;
+    margin-right: 14px;
+    position: relative;
+    bottom: 2.5px;
+}
+
+.friends button{
+    bottom: 5px;
+    margin-right: 20px;
+}
+
+li{
+    padding: 10px 0;
+    border-bottom: 0.3px solid rgb(192, 192, 192);
+}
+
+#dpsugg{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    margin-left: 15px;
+    object-fit: cover;
+}
+
+#userdp{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    top: 30px;
+    margin-top: 22px;
+}
+
+.profile{
+    text-align: center;
+}
+
+.profile h4{
+    margin-top: 10px;
+}
+
+.profile{
+    font-size: 13px;
+    vertical-align: middle;
+}
+
+.about{
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#postbtn{
+    position: absolute;
+    z-index: 4;
+    font-size: 20px;
+    top: 27px;
+    right: 40px;
+    position: fixed;
+}
+
+.profile i{
+    font-size: medium;
+    /* color: #4285F4; */
+    color:#03b6a4;
+}

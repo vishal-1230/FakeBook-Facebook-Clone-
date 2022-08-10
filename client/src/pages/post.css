@@ -1,0 +1,75 @@
+:root{
+    background-color: rgb(231, 231, 231);
+}
+
+
+#img{
+    clip-path: none;
+    position: relative;
+}
+
+#postcard{
+    width: 40vw;
+    /* max-width: 40rem; */
+    height: fit-content;
+    position: relative;
+    /* top: 250px; */
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#likebtn{
+    align-items: center;
+    border-radius: 0;
+    border-bottom-right-radius: 14px;
+}
+
+.fa-thumbs-up{
+    font-size: 27px;
+    margin-right: 10px;
+}
+
+#liketxt{
+    font-size: 18px;
+    align-self: center;
+}
+
+#likesimg{
+    height: 35px;
+    align-self: center;
+    position: absolute;
+    left: 48px;
+}
+
+#likescount{
+    margin-left: 20px;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

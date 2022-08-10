@@ -1,0 +1,111 @@
+.button-40 {
+  background-color: #111827;
+  border: 1px solid transparent;
+  border-radius: .75rem;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  flex: 0 0 auto;
+  font-family: "Inter var",ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5rem;
+  padding: .75rem 1.2rem;
+  text-align: center;
+  text-decoration: none #6B7280 solid;
+  text-decoration-thickness: auto;
+  transition-duration: .2s;
+  transition-property: background-color,border-color,color,fill,stroke;
+  transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: auto;
+}
+
+
+
+.button-40:hover {
+  /* background-color: #374151; */
+  background: transparent;
+  border: #111827 3px solid;
+  color: #111827;
+}
+
+.button-40:focus {
+  box-shadow: none;
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+
+@media (min-width: 768px) {
+  .button-40 {
+    padding: .75rem 1.5rem;
+  }
+  .card{
+      width: 90vw;
+      height: 80vh;
+      /* display: grid; */
+    background-color: white;
+    box-shadow: #6B7280;
+    border-radius: 15px;
+    /* box-shadow: 0px 0px 190px -64px rgba(0,0,0,0.75); */
+    box-shadow: 0px 0px 24px -4px rgba(0,0,0,0.55);
+    position: absolute;
+    left: 50%;
+    /* transform: translateX(-50%); */
+    top: 50%;
+    transform: translate(-50%, -44%);
+  }
+
+  .card p{
+    /* width: fit-content; */
+    /* margin-right: 0; */
+    /* display: inline; */
+  }
+
+  #peopleimg{
+    width: 43vw;
+    height: inherit;
+    display: inline;
+    object-fit: cover;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+    /* float: right; */
+    right: 0;
+    position: absolute;
+    top: 0;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+
+  .cardTxt{
+    position: absolute;
+    left: 7vw;
+    top: 50%;
+    transform: translateY(-70%);
+  }
+
+  #welTitle{
+    font-size: 40px;
+  }
+
+  #welText{
+    text-align: justify;
+    font-size: larger;
+    margin-bottom: 50px;
+  }
+
+  .welbtns{
+    margin-right: 60px;
+  }
+
+  #loginbtn{
+    position: absolute;
+    /* right: 0; */
+  }
+}
+
+#fbspan{
+    color: #d63031;
+}
+
