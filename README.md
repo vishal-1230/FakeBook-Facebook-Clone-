@@ -36,8 +36,7 @@ Functioning Explanation in Brief:
 - Welcome Page, Signup & Login Page are working as SPA. As you click SignUp/Login website checks for cookies, if cookies found, it redirects you to Dashboard, else the Signup/Login Page will load up. It'll ask for basic account details to signup (will check if user exists/ passwd is insufficient), & will store the passwd & username on DB server in encrypted form and then will redirect you to login page. After logging in, a jwt token will be generated that'll be sent to user & the website will store a cookie as {key={jwt token}}, and dashboard will load up. Dashboard will make a request from server to get details, get suggestions, get friends with this 'key' cookie.
 
 Learnings:
-- I got to learn a lot about routing in react, and communicating between server and frontend by get/post requests.
-- I got some revision on css, about positioning, flex display etc.
+- I got to learn a lot about routing & SPA in react, and communicating between server and frontend by get/post requests.
 - I learnt about JWT Authorization, as well as basic session authorization.
 - I got to learn about Encrypting passwords.
 - I got to learn about CORS Policy used by browsers for security (that screwed my 4-5 hourse :/).
@@ -45,4 +44,3 @@ Learnings:
 - Got to learn Bootstrap classes.
 - Got to learn Middleware in ExpressJs.
 - At last, I learnt Patience & Perseverance ;)
-
